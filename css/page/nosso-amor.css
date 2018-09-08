@@ -1,0 +1,12 @@
+#nosso-amor{
+    background-image: url("http://radioliberalfm.com.br/wp-content/uploads/2018/01/bodas-de-casamento-fb-940x529.jpg");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#nosso-amor *{
+    text-shadow: 1px 1px 10px #000;
+    color: white;
+    font-weight: bold;
+}
