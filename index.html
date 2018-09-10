@@ -25,8 +25,15 @@
             .page .titulo{
                 font-family: 'Pinyon Script', cursive;
             }
+
+            .page p {
+                padding: 15px;
+                max-height: 60vh;
+                overflow-y: auto;
+            }
         </style>
         <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
         <link rel="stylesheet" href="./css/page/inicio.css">
         <link rel="stylesheet" href="./css/page/nosso-amor.css">
     </head>
@@ -35,23 +42,28 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">O Início</p>
                     </div>
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">Nosso amor</p>
                     </div>
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">Os Noivos</p>
                     </div>
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">A Família</p>
                     </div>
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">Os Presentes</p>
                     </div>
-                    <div class="col col-2">
+                    <div class="col col-md-2">
                         <p class="text-center">A Festa</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="padding-top: 25vh;" class="col-md-12 d-flex justify-content-center">
+                        <img id="noivos-nomes" class="img-fluid" align-middle src="./img/noivos-nome.png" alt="">
                     </div>
                 </div>
             </div>
@@ -61,15 +73,15 @@
         <section>
             <div class="container-fluid">
                 <div id="o-inicio" class="row page">
-                    <div style="height: 50px !important;" class="col col-12">
+                    <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
                         <h1 class="text-center titulo">~ O Início ~</h1>
                     </div>
-                    <div style="margin-top: -20px;" class="col col-12">
+                    <div class="col col-12">
                         <div class="row">
-                            <div class="col col-6">
+                            <div class="col-sm-12 col-md-6">
                                 <img class="img-fluid" src="http://www.overmelhinho.com.br/arquivos/b83fe_6039.jpg" alt="">
                             </div>
-                            <div class="col col-6">
+                            <div class="col-sm-12 col-md-6">
                                 <p class="text-justify">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     <br>
@@ -85,15 +97,15 @@
 
             <div id="nosso-amor" class="container-fluid">
                 <div  class="row page">
-                    <div style="height: 50px !important;" class="col col-12">
+                    <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
                         <h1 class="text-center titulo">~ Nosso Amor ~</h1>
                     </div>
-                    <div style="margin-top: -20px;" class="col col-12">
+                    <div class="col col-12">
                         <div class="row">
-                            <div class="col col-7">
+                            <div class="col-sm-12 col-md-7">
 
                             </div>
-                            <div class="col col-5">
+                            <div class="col-sm-12 col-md-5">
                                 <p class="text-justify">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                     <br>
@@ -107,11 +119,6 @@
         </section>
 
 
-        <footer>
-            <div class="container-fluid">
-
-            </div>
-        </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

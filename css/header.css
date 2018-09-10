@@ -1,12 +1,18 @@
 header{
     padding: 20px 10px 20px 20px;
-    background-image: url("http://www.noivadodia.com.br/wp-content/uploads/casamento-no-parke-da-cidade-noiva-do-dia-casamento-em-brasilia-renata-wesley-carvalho-2.jpg");
+    background-image: url("../img/flores.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    ]background-position: 0px 0px;
+    background-size:100%;
+    background-position: 0px 0px;
     color: white;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 10px #000;
     height: 100vh;
+}
+
+@media(min-width: 992px){
+    header {
+        background-size: 55%;
+    }
 }
 
 header p{
@@ -16,4 +22,10 @@ header p{
 
 header p:hover{
     transform: scale(1.1);
+}
+
+#noivos-nomes{
+    max-height: 40vh;
+    margin: 0px auto;
+filter: drop-shadow(2px 2px 1px #666);
 }
