@@ -28,5 +28,5 @@ header p:hover{
 #noivos-nomes{
     max-height: 40vh;
     margin: 0px auto;
-filter: drop-shadow(2px 2px 1px #666);
+    filter: drop-shadow(2px 2px 1px #666);
 }

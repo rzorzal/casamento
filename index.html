@@ -1,127 +1,277 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Carol && Ricardo</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Crete+Round|Inconsolata|Pinyon+Script" rel="stylesheet">
+    <title>Carol && Ricardo</title>
 
-        <style media="all">
-            * {
-                font-family: 'Crete Round', serif;
-            }
-            body{
-                background-color: whitesmoke;
-            }
-            .page {
-                width: 100%;
-                height: 100vh;
-                padding: 25px;
-            }
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Inconsolata|Pinyon+Script" rel="stylesheet">
 
-            .page .titulo{
-                font-family: 'Pinyon Script', cursive;
-            }
+    <style media="all">
+        * {
+            font-family: 'Crete Round', serif;
+        }
 
-            .page p {
-                padding: 15px;
-                max-height: 60vh;
-                overflow-y: auto;
-            }
-        </style>
-        <link rel="stylesheet" href="./css/header.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/page/inicio.css">
-        <link rel="stylesheet" href="./css/page/nosso-amor.css">
-    </head>
-    <body>
+        body {
+            background-color: whitesmoke;
+        }
 
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-md-2">
-                        <p class="text-center">O Início</p>
-                    </div>
-                    <div class="col col-md-2">
-                        <p class="text-center">Nosso amor</p>
-                    </div>
-                    <div class="col col-md-2">
-                        <p class="text-center">Os Noivos</p>
-                    </div>
-                    <div class="col col-md-2">
-                        <p class="text-center">A Família</p>
-                    </div>
-                    <div class="col col-md-2">
-                        <p class="text-center">Os Presentes</p>
-                    </div>
-                    <div class="col col-md-2">
-                        <p class="text-center">A Festa</p>
-                    </div>
+        .page {
+            width: 100%;
+            min-height: 100vh;
+            padding: 25px;
+        }
+
+        .page .titulo {
+            font-family: 'Pinyon Script', cursive;
+        }
+
+        .page p {
+            padding: 15px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/page/inicio.css">
+    <link rel="stylesheet" href="./css/page/nosso-amor.css">
+    <link rel="stylesheet" href="./css/page/noivos.css">
+    <link rel="stylesheet" href="./css/page/familia.css">
+    <link rel="stylesheet" href="./css/page/presentes.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-md-2">
+                    <p class="text-center">O Início</p>
                 </div>
-                <div class="row">
-                    <div style="padding-top: 25vh;" class="col-md-12 d-flex justify-content-center">
-                        <img id="noivos-nomes" class="img-fluid" align-middle src="./img/noivos-nome.png" alt="">
-                    </div>
+                <div class="col col-md-2">
+                    <p class="text-center">Nosso amor</p>
+                </div>
+                <div class="col col-md-2">
+                    <p class="text-center">Os Noivos</p>
+                </div>
+                <div class="col col-md-2">
+                    <p class="text-center">A Família</p>
+                </div>
+                <div class="col col-md-2">
+                    <p class="text-center">Os Presentes</p>
+                </div>
+                <div class="col col-md-2">
+                    <p class="text-center">A Festa</p>
                 </div>
             </div>
-        </header>
+            <div class="row">
+                <div style="padding-top: 25vh;" class="col-md-12 d-flex justify-content-center">
+                    <img id="noivos-nomes" class="img-fluid" align-middle src="./img/noivos-nome.png" alt="">
 
-
-        <section>
-            <div class="container-fluid">
-                <div id="o-inicio" class="row page">
-                    <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
-                        <h1 class="text-center titulo">~ O Início ~</h1>
                     </div>
-                    <div class="col col-12">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <img class="img-fluid" src="http://www.overmelhinho.com.br/arquivos/b83fe_6039.jpg" alt="">
-                            </div>
-                            <div class="col-sm-12 col-md-6">
-                                <p class="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    <br>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
+        </div>
+    </header>
 
-            <div id="nosso-amor" class="container-fluid">
-                <div  class="row page">
-                    <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
-                        <h1 class="text-center titulo">~ Nosso Amor ~</h1>
-                    </div>
-                    <div class="col col-12">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-7">
+
+    <section>
+        <div class="container-fluid">
+            <div id="o-inicio" class="row page">
+                <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
+                    <h1 class="text-center titulo">~ O Início ~</h1>
+                </div>
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <img class="img-fluid" src="./img/praca.jpg" alt="">
 
                             </div>
-                            <div class="col-sm-12 col-md-5">
-                                <p class="text-justify">
+                        <div class="col-sm-12 col-md-6">
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                id est laborum.
+                                <br>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    <br>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
                                 </p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+
+
+        </div>
+
+        <div id="nosso-amor" class="container-fluid">
+            <div class="row page">
+                <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
+                    <h1 class="text-center titulo">~ Nosso Amor ~</h1>
+                </div>
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-7">
+
+                        </div>
+                        <div class="col-sm-12 col-md-5">
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                id est laborum.
+                                <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="noivos" class="container-fluid">
+            <div class="row page">
+                <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
+                    <h1 class="text-center titulo">~ Os Noivos ~</h1>
+                </div>
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-9">
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                id est laborum.
+                                <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                                </p>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <img class="img-fluid" src="./img/carolricardo.jpg" alt="">
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="familia" class="container-fluid">
+            <div class="row page">
+                <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
+                    <h1 class="text-center titulo">~ A Família ~</h1>
+                </div>
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-2">
+
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <p class="text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                                id est laborum.
+                                <br>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                                </p>
+                        </div>
+                        <div class="col-sm-12 col-md-2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="presentes" class="container-fluid">
+            <div class="row page">
+                <div style="height: 50px !important;" class="col col-sm-12 col-md-12">
+                    <h1 class="text-center titulo">~ Os Presentes ~</h1>
+                </div>
+                <div class="col col-12">
+                    <div class="row" style="padding: 20px;">
+
+                        <div class="product col-sm-6 col-md-3">
+                            <div class="card" >
+                                <img class="card-img-top" src="https://www.mundoboaforma.com.br/wp-content/uploads/2016/11/cafe-da-manha-620x330.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Café da manhã em Londres</h5>
+                                    <p class="card-text">Pão, manteiga, presunto e etc por apenas R$ 200,00</p>
+                                    <a class="d-flex justify-content-center">
+                                        <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                                        <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+                                        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                        <input type="hidden" name="code" value="01C5E4BFD3D3252EE4436FBF1E62FBEA" />
+                                        <input type="hidden" name="iot" value="button" />
+                                        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/84x35-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                                        </form>
+                                        <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+                                        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product col-sm-6 col-md-3">
+                            <div class="card" >
+                                <img class="card-img-top" src="" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product col-sm-6 col-md-3">
+                            <div class="card" >
+                                <img class="card-img-top" src="" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product col-sm-6 col-md-3">
+                            <div class="card" >
+                                <img class="card-img-top" src="" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product col-sm-6 col-md-3">
+                            <div class="card" >
+                                <img class="card-img-top" src="" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
 </html>
