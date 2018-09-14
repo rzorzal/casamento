@@ -1,5 +1,5 @@
 #nosso-amor{
-    background-image: url("http://radioliberalfm.com.br/wp-content/uploads/2018/01/bodas-de-casamento-fb-940x529.jpg");
+    background-image: url("http://www.noivadodia.com.br/wp-content/uploads/casamento-no-parke-da-cidade-noiva-do-dia-casamento-em-brasilia-renata-wesley-carvalho-2.jpg");
     background-position: 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,4 +9,10 @@
     text-shadow: 1px 1px 10px #000;
     color: white;
     font-weight: bold;
+}
+
+@media(max-width: 991px){
+    #nosso-amor{
+        background-position: -250px 0px;
+    }
 }
