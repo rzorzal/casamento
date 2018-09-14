@@ -1,0 +1,24 @@
+#final h1{
+    padding-bottom: 10px;
+}
+
+#final *{
+    text-shadow: 1px 1px 10px #ddd;
+    color: black;
+}
+
+#final{
+    background-image: url("../../img/flores-invert.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: right bottom;
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+@media(min-width: 992px){
+    #final {
+        background-size: 55%;
+        background-position: bottom right;
+    }
+}
