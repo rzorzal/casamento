@@ -30,3 +30,12 @@ header p:hover{
     margin: 0px auto;
     filter: drop-shadow(2px 2px 1px #666);
 }
+
+@media(min-width: 992px){
+    header {
+        background-size: 55%;
+    }
+    #container-noivos-nomes{
+        padding-top: 25vh;
+    }
+}
